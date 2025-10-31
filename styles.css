@@ -1,0 +1,88 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+color: #112233;
+}
+
+h1 {
+text-align: center;
+margin-top: 30px;
+margin-bottom: 10px;
+font-size: 1.6rem;
+}
+
+h2, h3, h4, h5, h6 {
+margin-left: 8px;
+}
+
+.hr-examples hr {
+border: none;
+background-color: #333;
+margin: 12px 0;
+}
+
+.poem {
+margin: 10px 20px;
+font-style: italic;
+}
+
+table.entities {
+border-collapse: collapse;
+margin: 10px auto;
+width: 70%;
+max-width: 700px;
+}
+
+table.entities th, table.entities td {
+border: 1px solid #ccc;
+padding: 8px 12px;
+text-align: left;
+}
+
+table.entities thead th {
+background: #f3f3f3;
+}
+
+code {
+background: #fafafa;
+padding: 2px 6px;
+border-radius: 4px;
+font-family: "Courier New", monospace;
+}
+
+ul, ol, dl {
+margin-left: 40px;
+}
+
+dl dt {
+font-weight: bold;
+}
+
+dl dd {
+margin-left: 20px;
+font-style: italic;
+}
+
+.group-table {
+width: 50%;
+margin: 20px auto;
+border-collapse: collapse;
+text-align: left;
+}
+
+.group-table td {
+padding: 16px;
+vertical-align: top;
+border: 2px solid #ffffff;
+}
+
+.cell-1 { background-color: #ffe4e1; color: #7a0c2e; }
+.cell-2 { background-color: #e6ffed; color: #0a5c17; }
+
+.group-table ul {
+margin: 8px 0 0 20px; 
+}
+
+@media (max-width: 600px) {
+.group-table { width: 90%; }
+}
